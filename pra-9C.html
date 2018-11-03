@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Person Name Stores into Array</title>
+	<script type="text/javascript">
+		var N=0;
+
+		var arr=[];
+		var display;
+		
+
+while(true)
+{
+    
+    display=window.prompt("Enter name of Person(Press 'END' for Exit):");
+    if(display=="end" || display=="END")
+    {
+        
+        break;
+    }
+    else
+    {
+        arr[N]=display;
+        N++;
+    }
+    
+
+}
+
+var sort=[];
+
+sort=arr.sort();
+
+for(var i=0;i<sort.length;i++)
+{
+    document.write("<br>"+sort[i])
+}
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
+
+
